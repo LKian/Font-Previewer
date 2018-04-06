@@ -25,7 +25,7 @@ body {
 	width: 50%; 
 	margin: 20px auto; }
 .box {
-	width: calc(100% * (1/4)) ;
+	width: 100% ;
 	text-align: center;
 	min-height: 75px;
 	border: 1px solid #aec; }
@@ -40,3 +40,14 @@ body {
   	font-size: 1.8em;
   	color: #111;
   	word-wrap: break-word; }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.box {
+		width: calc(100% * (1/2)); }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.box {
+		width: calc(100% * (1/4)); } 
+}
