@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; }
+body {
+	font-family: arial;
+	background: #ccc;  /* backup for old browsers */
+	background-color: #42877e;
+	background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png"); }
+
+.samples {
+	display: flex;
+	flex-direction: column;
+	margin: 25px 0; }
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 0 100px; }
+#magicalInput {
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1.2em;
+	display: flex;
+	width: 40%; 
+	margin: 20px auto; }
+.box {
+	width: calc(100% * (1/4)) ;
+	text-align: center;
+	min-height: 75px;
+	border: 1px solid #aec; }
+.title {
+	font-family: arial;
+	padding: 5px 0;
+	color: #eee;
+	font-weight: bolder;
+	background-color: rgba(0,80,10,0.3); }
+.code {
+  	padding: 10px 5px;
+  	font-size: 1.8em;
+  	color: #111;
+  	word-wrap: break-word; }
