@@ -22,7 +22,7 @@ body {
 	border-radius: 5px;
 	font-size: 1.2em;
 	display: flex;
-	width: 40%; 
+	width: 50%; 
 	margin: 20px auto; }
 .box {
 	width: calc(100% * (1/4)) ;
